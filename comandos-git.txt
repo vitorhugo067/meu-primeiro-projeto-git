@@ -9,3 +9,6 @@ Clona um repositório remotogit add - Adiciona arquivos à área de staginggit c
 Confirma as alterações no repositório localgit status - Mostra o status dos arquivosgit
 branch - Lista branches ou cria uma nova branchgit checkout - Muda para outra branchgit
 push origin <branch> - Envia branch para o repositório remoto
+
+=== RESOLUÇÃO DE CONFLITOS ===git merge <branch> - Faz merge de uma branch (pode gerar
+conflitos)Quando há conflito: editar arquivo, remover marcações, git add, git commit
